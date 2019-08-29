@@ -4,6 +4,16 @@ function takeANumber(currentPeople, newPerson){
   return "Welcome, " + newPerson + ". You are number " + currentPeople.length + " in line."
 }
 
+let newCustomer = 1;
+function takeANumberTwo(){
+ newCustomer++
+ console.log("Welcome you are customer number:" + newCustomer);
+}
+
+takeANumberTwo();
+takeANumberTwo();
+
+
 function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0 ){
     return "There is nobody waiting to be served!"
